@@ -1,0 +1,29 @@
+Expected Requirements
+
+Part 1: Data Exploration and Cleaning
+
+    Review each sheet to extract useful data and identify cleaning needs.
+    Document the steps taken for data cleaning and updates.
+    Organize the spreadsheet by freezing rows/columns, adjusting widths, wrapping text, and applying filters.
+    Filter listings to include only those with a minimum stay of 7 days or fewer, reviews from the past 12 months, and active status.
+
+Part 2: Identifying Target Properties
+
+    Analyze data to identify the top 10 neighborhoods for vacation rentals based on recent reviews.
+    Standardize and clean neighborhood data for consistency.
+    Determine the most popular property size (number of bedrooms) for rentals.
+    Analyze neighborhood preferences for property sizes and recommend the best size for each of the top 10 neighborhoods.
+
+Part 3: Occupancy Calculation
+
+    Clean and prepare the calendar data.
+    Aggregate data by day of the week.
+    Calculate the average occupancy rate for each listing.
+    Determine which days of the week have the highest occupancy rates.
+
+Part 4: Revenue Estimation for Investment Properties
+
+    Filter listings based on the established criteria.
+    Calculate the average price and occupancy rate for the selected properties.
+    Estimate annual revenue using the average price and occupancy rate.
+    Document the assumptions used in the revenue estimation
