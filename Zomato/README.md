@@ -39,8 +39,8 @@ This repository contains the analysis of Zomato's user data, aiming to provide a
 
 1. **Zomato Data Users**: Original dataset containing user demographic information.
 2. **Zomato User Analysis Report.pdf**: A comprehensive report summarizing the analysis findings and recommendations.
-3. **README.md**: This file, providing an overview and instructions for the repository.
-4. **Requirements.txt**: A file listing the project requirements provided by TripleTen.
+3. [README.md](README.md)  This file, providing an overview and instructions for the repository.
+4. [Requirements.txt](Requirements.txt): A file listing the project requirements provided by TripleTen.
 
 ## Assumptions
 1. **Data Accuracy**: The provided datasets are accurate and reflect real user behaviors and characteristics.
