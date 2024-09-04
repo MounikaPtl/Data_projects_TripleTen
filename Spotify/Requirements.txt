@@ -1,0 +1,35 @@
+Shopify App Analysis Project Requirements
+
+Part 1: App Landscape
+
+1. Create a new sheet in Power BI named "App Landscape."
+2. Develop a KPI Card displaying the unique number of apps.
+3. Create a Line Chart with `review_count` on the Y-axis and `lastmod_date` on the X-axis.
+   - Ensure `lastmod_date` is not in “date hierarchy” format.
+4. Construct a Scatterplot with `reviews_count` on the X-axis and `average_rating` on the Y-axis.
+   - Add an annotation using a Text Box to explain your interpretation.
+
+Part 2: Reviews
+
+1. Create a new sheet in Power BI named "Reviews."
+2. In the Reviews table, add a calculated column `helpful_reviews` with the formula: `rating * (1 + helpful_count)`.
+   - Create a Card visual displaying the average value of `helpful_reviews`.
+3. Add a calculated column `developer_answered` in the Reviews table with the formula: `IF(developer_reply IS NOT NULL, 1, 0)`.
+   - Make a Scatterplot comparing the `average_rating` (Y-axis) with the `developer_answered` (X-axis).
+
+Part 3: App Reviews
+
+1. Create a new sheet in Power BI named "App Reviews."
+2. Establish a relationship in the data model between the Reviews table and the Apps table:
+   - Use `app_id` from Reviews and `id` from Apps.
+   - Set up a many-to-one relationship (many in Reviews, one in Apps).
+3. Generate a Bar Chart with `developer` on the X-axis and the sum of `rating` on the Y-axis.
+4. Create another Bar Chart with `developer` on the X-axis and the average of `helpful_reviews` on the Y-axis.
+5. Identify the most responsive developers by creating a Bar Chart with `developer` from the Apps table and `developer_answered` from the Reviews table.
+   - Apply a Filter to include only rows where `reviews_count` is greater than 500.
+
+Deliverables
+
+- Power BI (.pibx) file with separate sheets for each part.
+- Screenshots showing the completed visualizations and their configurations.
+
