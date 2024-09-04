@@ -1,0 +1,46 @@
+Project Requirements: Saving Super Store
+Overview
+
+This project involves analyzing sales and returns data from a superstore to identify key areas for profitability improvement and strategic advertising decisions. The goal is to provide actionable insights to help the store avoid bankruptcy.
+Part 1: Profits & Losses
+
+    Profit and Loss Centers Analysis:
+        Identify the top two dimensions (e.g., subcategory + region, or shipping mode + product ID) with the highest and lowest profits.
+        Create visualizations to justify which are the biggest profit centers and loss-makers.
+
+    Product Discontinuation:
+        Determine which products are underperforming and should be discontinued.
+        Visualize data to support the decision for discontinuing certain products.
+
+    Subcategory Focus:
+        Identify three high-profit subcategories and three low-profit subcategories.
+        Provide visualizations to recommend which subcategories to focus on and which to discontinue.
+
+Part 2: Advertising
+
+    Optimal Advertising Regions and Periods:
+        Identify the top three combinations of states and months for advertising based on average profit.
+        Create a visualization of the average profit for each month across these states.
+        Justify advertising budget recommendations based on return on ad spend, suggesting a willingness to spend up to 20% of profits on advertising.
+
+Part 3: Returned Items
+
+    Return Rate Analysis:
+        Transform the Returns table to make the "Returned" field a calculated field where "Yes" = 1 and "null" = 0.
+        Create visualizations to identify:
+            Products with the highest return rates.
+            Customers with the highest return rates.
+
+    Profit vs. Return Rate Visualization:
+        Create a visualization showing the average profit against the average return rate, using a relevant dimension (e.g., state, shipping mode, product type).
+        Provide a visual argument for whether the superstore should continue or cease business in relation to the chosen dimension.
+
+Submission
+
+    Files Required:
+        A README.md file with a link to the Tableau Public dashboard.
+        The Excel data file(s) and any other supporting files.
+
+    Documentation:
+        Clearly document all data cleaning, transformations, and analysis steps.
+        Include detailed explanations for visualizations and insights.
