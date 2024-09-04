@@ -24,10 +24,10 @@ Google Spreadsheet can be found [here](https://docs.google.com/spreadsheets/d/1p
 
 ### Data
 
-- **airbnb_rental_data_analysis.xlsx**:  Contains listings data for Airbnb in Manhattan for September 2022.
-- **data_dictionary**: Defines field titles and data types.
-- **listings**: Comprehensive data on individual listings.
-- **calendar**: Details on listing availability and rental dates.
+- `airbnb_rental_data_analysis.xlsx`:  Contains listings data for Airbnb in Manhattan for September 2022.
+- `data_dictionary`: Defines field titles and data types.
+- `listings`: Comprehensive data on individual listings.
+- `calendar`: Details on listing availability and rental dates.
 
 ### Description
 
