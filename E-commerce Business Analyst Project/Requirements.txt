@@ -1,0 +1,75 @@
+Project Requirements
+Overview
+
+This document outlines the requirements for analyzing raw transaction logs from an e-commerce website to derive business metrics. The goal is to create a conversion funnel, prepare data for cohort analysis, calculate retention rates, and organize the results in Google Sheets.
+Part 1: Build a Conversion Funnel
+
+    Create a New Sheet
+        Add a new sheet to your Google Sheets document titled “conversion_funnel”.
+
+    Construct a Pivot Table
+        Use data from the “raw_user_activity” tab.
+        Set up a pivot table to count unique users at each stage of the funnel:
+            Stage 1: Product Page Views
+            Stage 2: Shopping Cart Openings
+            Stage 3: Purchases
+
+    Add Conversion Rate Columns
+        Calculate the total conversion rate (from product page views to purchases).
+        Calculate conversion rates to the next step (e.g., from views to cart, and from cart to purchase) using formulas.
+
+Part 2: Prepare Data for Cohort Analysis
+
+    Filter Purchase Events
+        Create a new sheet called “purchase_activity”.
+        Filter the “raw_user_activity” data to include only purchase events.
+        Copy the filtered data to the “purchase_activity” sheet.
+        Verify that the sheet contains 4,845 rows (including headers).
+
+    Calculate First Purchase Dates
+        Create a new pivot table on a sheet named “first_purchase”.
+        Configure the pivot table to calculate the minimum event_date for each user.
+        Add a column named “first_purchase_date” in the “purchase_activity” sheet.
+        Use VLOOKUP to populate the “first_purchase_date” for each user based on the data from the “first_purchase” sheet.
+
+    Set Up Monthly Data
+        Add three columns to the “purchase_activity” sheet:
+            “event_month”: Use the TEXT() function to format as YYYY-MM.
+            “first_purchase_month”: Use the TEXT() function to format as YYYY-MM.
+            “cohort_age”: Use the DATEDIF() function to calculate the number of months between the first purchase and the event.
+
+Part 3: Calculate Retention Rates
+
+    Create Cohort Analysis Pivot Table
+        Insert a new sheet called “cohort_analysis”.
+        Set up a pivot table to group users by the month of their first purchase.
+        Include the count of unique users for each cohort_age (0 to 4 months).
+
+    Calculate Overall Retention Rates
+        Create a new sheet named “retention_rates”.
+        Design a table to calculate retention rates for each cohort by month.
+        Use formulas to compute retention rates based on the cohort size and the number of users retained each month.
+
+Part 4: Organize and Document Your Spreadsheet
+
+    Executive Summary
+        Complete the “Executive Summary” sheet with:
+            Results: Summarize findings from the “conversion_funnel” and “retention_rates” sheets.
+            Analysis: Explain the data assumptions and methodologies used.
+
+    Reorder Sheets
+        Arrange the sheets in the following order:
+            “Table of Contents”: Include a brief description of each sheet.
+            “Executive Summary”
+            Analytical Results Sheets: “conversion_funnel,” “retention_rates,” etc.
+            Calculation Sheets: “purchase_activity,” “first_purchase,” etc.
+            Raw Data Sheets: “raw_user_activity”
+
+    Formatting
+        Format the spreadsheet for readability:
+            Apply borders, bold fonts for headers, and consistent number/date formatting.
+            Freeze rows, highlight cells with calculations, and ensure clear presentation.
+
+Submission
+
+    Share the completed Google Sheets file with view-only access to reviewers using the "Share" button
