@@ -1,0 +1,29 @@
+Expected Requirements:
+
+Part 1: Identify Causes of Returns
+
+    - Scatterplot: Create a scatterplot to compare total sales with total returns across different product subcategories.
+    - Bar Chart: Develop a bar chart that illustrates return rates for each product category.
+    - Customer Analysis: Evaluate return rates by customer, excluding those with only a single order.
+    - Geographic Visualization: Display return rates using a geographic metric (e.g., state or city).
+    - Temporal Analysis: Assess return rates based on periods (e.g., monthly or weekly).
+    - Composite Charts: Produce two composite charts that show return rates influenced by multiple factors.
+
+Part 2: Design a Dashboard for Monitoring Returns
+
+    - Mock-Up Sketches: Design three different low-fidelity sketches of potential dashboard layouts.
+    - Select Best Mock-Up: Choose the most effective mock-up and develop a dashboard template with placeholder containers.
+    - Integrate Worksheets: Add your worksheets to the dashboard template.
+    - Finalize Dashboard: Complete the dashboard by adding markers, images, and titles.
+
+Part 3: Present Your Analysis and Dashboard
+
+    - Draft Story: Create a draft of your story with captions for each Story Point.
+    - Enhance Story Points: Incorporate content into your Story Points using both existing and new worksheets.
+    - Create Presentation Slides: Build dashboards that serve as presentation-style slides.
+    - Save Tableau Story: Save a version of your finalized Tableau Story.
+    - Prepare Presentation: Create a screengrab or video to present your Tableau Story.
+
+Part 4: Submit Your Project
+
+    -Submission: Submit your project for review.
