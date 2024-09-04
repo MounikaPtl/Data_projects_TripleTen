@@ -1,0 +1,32 @@
+Requirements
+
+    Data Sources:
+        Utilize the provided datasets:
+            orders – Contains information on customer orders including date, amount, and restaurant details.
+            users – Includes demographic data about Zomato customers, such as age, income, and education.
+            restaurants – Provides details about restaurants including location and cuisine type.
+
+    Analysis Focus:
+        Conduct a customer segmentation analysis to understand user demographics, income distribution, and engagement patterns.
+        Evaluate how different factors (e.g., age, income, location) affect user behavior and order volume.
+
+    Data Preparation:
+        Clean the data by handling missing values, removing duplicates, and standardizing formats.
+        Transform data as necessary to create calculated fields or aggregate information for analysis.
+
+    Visualizations:
+        Create visualizations to answer key research questions:
+            Age distribution of users.
+            Income distribution and its impact on order frequency.
+            Popularity of restaurants based on user ratings and order volumes.
+            Correlation between user demographics and engagement metrics.
+
+    Dashboard and Report:
+        Develop an interactive dashboard using Tableau or Power BI to present the findings.
+        Generate a comprehensive report summarizing key insights, conclusions, and recommendations based on the analysis.
+
+    Submission Requirements:
+        Include the final report in PDF or DOC format.
+        Provide a text file with a link to the dashboard.
+        Submit additional files if necessary, including the final joined data in CSV format.
+        Ensure the entire submission (dashboard, report, data files) is in a single archive not exceeding 10 MB.
